@@ -1,6 +1,6 @@
 # Caltech-101 Image Classification
 
-This project implements and evaluates multiple image classification methods on the Caltech-101 dataset (101 object categories, ~9,000 images). We compare 2 deep learning methods and 1 classical machine learning method, with comprehensive evaluation metrics and ablation studies.
+This project implements and evaluates multiple image classification methods on the Caltech-101 dataset. We compare 2 deep learning methods and 1 classical machine learning method, with comprehensive evaluation metrics and ablation studies.
 
 ## Overview
 
@@ -12,8 +12,8 @@ The project compares three different classification approaches:
 ## Dataset
 
 - **Dataset**: Caltech-101
-- **Categories**: 102 object categories
-- **Total Images**: ~9,144 images
+- **Categories**: 102 object categories (101 object classes + 1 background class)
+- **Total Images**: 9,144 images
 - **Split**: 70% train, 15% validation, 15% test (stratified)
 
 ## Models
